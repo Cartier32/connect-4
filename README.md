@@ -1,5 +1,5 @@
 # connect-4
-Connect4 game made with java/javaFX. This repo is meant to showcase this small project and not intended to improve or solicit pull requests. I built this around a year ago(2023) and I am excited to see how much my programming and development skills have improved when I look back on this repo in the far future :).
+Connect4 game made with java/javaFX. This repo is meant to showcase this small project and not intended to improve or solicit pull requests. I built this around 2024 and I am excited to see how much my programming and development skills have improved when I look back on this repo in the far future :).
 
 The connect4 game has a client server architecture so that two players can play from different computers. The server can handle as many games as the server's host computer has resources for, this is accomplished through using the runnable class for multithreading capabilities. The option to play against an AI is also available to the player, the "AI" is programmed to always move to try and make or make progress on a four in a row win. Due to this, it will not try and block the player's moves intentionally so it can be pretty easy to beat. Finally there is also an option for the player to play either in a GUI or a text-based(perfect for the terminal user) environment. 
 
